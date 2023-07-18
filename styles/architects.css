@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* header section styles */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 0;
+}
+
+nav {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h3 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.mr {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+/* banner section styles */
+
+.banner {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.banner .bnrsec1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.banner .bnrsec1 h1 {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner .bnrsec1 p {
+    max-width: 900px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px auto;
+}
+
+.banner .bnrsec1 button {
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.banner .bnrsec2 img {
+    width: 100%;
+}
+
+
+
+/* features section styles */
+
+.feature {
+    max-width: 1140px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 70px 50px;
+    margin: 0 auto;
+}
+
+/* feature-image section */
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.div-img {
+    border-radius: 8px;
+}
+
+.div-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* feature-description section */
+
+/* .feature-description {
+    padding: 150px 0 0 0;
+} */
+
+.feature-description .ttl-1 {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.feature-description .ttl-1 span {
+    color: #131313;
+    font-weight: 700;
+}
+
+.feature-description .ttl-2 {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+
+
+.feature-description p {
+    max-width: 600px;
+    margin: 15px 0;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.feature-description button {
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+/* feature-and-enjoy section styles */
+
+.feature-and-enjoy {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0;
+}
+
+
+
+.enjoy-text {
+    padding: 25px 40px 0 0;
+}
+
+.item-head h3 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 25px;
+    border-left: 5px solid #FF900E;
+}
+
+.item-head p {
+    max-width: 600px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0 30px 0;
+
+}
+
+.item {
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+}
+
+.item h4 {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item p {
+    max-width: 500px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+
+.enjoy-image {
+    position: relative;
+}
+
+.enjoy-image img {
+    width: 100%;
+    height: 93%;
+}
+
+.exp {
+    width: 40%;
+    background-color: #FF900E;
+    padding: 45px;
+    position: absolute;
+    bottom: -1%;
+    left: -5%;
+    z-index: 3;
+    border-radius: 8px;
+}
+
+.exp h2 {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.exp p {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+/* fact section styles */
+
+.fact {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 0 130px 0;
+}
+
+.fact-text h3 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.fact-text p {
+    max-width: 540px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 25px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.card-item {
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 45px;
+
+}
+
+.card-item h3 {
+    margin-top: 10px;
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.card-item p {
+    margin-top: 5px;
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+/* sponsor section style */
+
+.sponsor {
+    max-width: 1140px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 50px 0 130px 0;
+}
+
+
+.sponsor-text h3 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sponsor-text p {
+    max-width: 540px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px auto 50px auto;
+    text-align: center;
+}
+
+.sponsor-image {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer {
+    max-width: 1140px;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto 130px auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
+footer p {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive styles */
+
+/* smaller device */
+
+@media screen and (max-width: 575px) {
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        margin: 21px auto;
+    }
+
+    .banner .bnrsec1 {
+        margin-top: 50px;
+    }
+
+    .banner .bnrsec1 h1 {
+        padding: 0 20px;
+
+    }
+
+    .banner .bnrsec1 p {
+        padding: 0 10px;
+    }
+
+
+
+
+
+    .feature {
+        flex-direction: column-reverse;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .feature-img {
+        grid-template-columns: 1fr;
+    }
+
+
+
+    .feature-and-enjoy {
+        flex-direction: column;
+    }
+
+    .enjoy-text {
+        padding: 15px;
+    }
+
+    .item-head {
+        padding-left: 10px;
+    }
+
+    .enjoy-image {
+        padding: 10px;
+    }
+
+
+    .exp {
+        width: 40%;
+        padding: 25px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .exp h2 {
+        font-size: 40px;
+    }
+
+    .exp p {
+        font-size: 20px;
+    }
+
+
+
+    .fact-text {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .card {
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px 10px 0 10px;
+    }
+
+    .card-item {
+        padding: 35px;
+    }
+
+
+    .sponsor-image {
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .sponsor-image div {
+        text-align: center;
+    }
+
+
+}
+
+
+
+/* medium device */
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        margin: 21px auto;
+    }
+
+    .banner .bnrsec1 {
+        margin-top: 70px;
+    }
+
+    .banner .bnrsec1 h1 {
+        padding: 0 20px;
+
+    }
+
+    .banner .bnrsec1 p {
+        padding: 0 10px;
+    }
+
+
+
+
+    .feature {
+        flex-direction: column-reverse;
+    }
+
+    .feature-and-enjoy {
+        flex-direction: column;
+    }
+
+    .enjoy-text {
+        padding: 20px;
+    }
+
+    .item-head {
+        padding-left: 15px;
+    }
+
+    .item-head p {
+        max-width: 700px;
+    }
+
+    .item p {
+        max-width: 600px;
+    }
+
+    .enjoy-image {
+        padding: 10px;
+    }
+
+
+    .exp {
+        width: 40%;
+        padding: 30px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .exp h2 {
+        font-size: 45px;
+    }
+
+    .exp p {
+        font-size: 21px;
+    }
+
+
+    .fact-text {
+        padding-left: 25px;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 70px 20px 0 20px;
+    }
+
+    .card-item {
+        padding: 35px;
+    }
+
+
+    .sponsor-image {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sponsor-image div {
+        text-align: center;
+    }
+
+
+}
